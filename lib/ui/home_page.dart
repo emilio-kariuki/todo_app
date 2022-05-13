@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
   _showTask() {
     return Expanded(
       child: Obx(
-        () {
+        () { 
           return ListView.builder(
             itemCount: _taskController.taskList.length,
             itemBuilder: (_, index) {
